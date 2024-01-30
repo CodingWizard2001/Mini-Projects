@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    min-height: 100vh;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: url('Assets/background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 8%;
+}
+.logo{
+    width: 120px;
+    padding: 20px 0;
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #f1f1f1;
+}
+.content h1{
+    font-size: 60px;
+    margin-bottom: 12px;
+}
+.content h1 span{
+    color: tomato;
+}
+button{
+    padding: 8px 25px;
+    background-color: transparent;
+    outline: none;
+    border: 1.5px solid #f4f4f4;
+    color: #f4f4f4;
+    cursor: pointer;
+    transition: all 0.7s ease-in;
+}
+button:hover{
+    transform: translateX(10px);
+    opacity: 0.8;
+}
+.launch-time{
+    display: flex;
+    margin-bottom: 30px;
+}
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time div p{
+    font-size: 60px;
+}
+.rocket{
+    width: 250px;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    animation: rocket 4s linear infinite;
+}
+@keyframes rocket{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .content h1{
+        font-size: 40px;
+    }
+    .launch-time div p{
+        font-size: 40px;
+    }
+}
