@@ -6,12 +6,11 @@ Welcome to the `Stopwatch project`! This web application allows users to utilize
  - **User-friendly Interface:** Simple and intuitive interface for easy usability.
  - **Real-time Updates:** Instantly see the elapsed time as the stopwatch runs.
 
-<img src = "https://i.pinimg.com/originals/5a/8f/da/5a8fdacf120e15dc87ed895435849273.gif">
+<img src = "https://i.pinimg.com/originals/5a/8f/da/5a8fdacf120e15dc87ed895435849273.gif" width = "200px" align = "right">
 
 ## Technologies Used:
  - HTML
  - CSS
  - JavaScript
-#### Preview
-<a href = "https://legendary-granita-229ea6.netlify.app/">Preview
+#### <a href = "https://legendary-granita-229ea6.netlify.app/">Preview of the Web
 
