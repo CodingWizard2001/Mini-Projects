@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Pop Up</title>
+
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button type="submit" class="open" onclick="openPop()">Submit</button>
+        <div class="pop" id="popUp">
+            <img src="check-mark.png">
+            <h2>Thank You!</h2>
+            <p>Your details are successfully submitted. Thank you for your patience</p>
+            <button class="close" onclick="closePop()">Ok</button>
+        </div>
+    </div>
+
+    <!-- Link To JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
